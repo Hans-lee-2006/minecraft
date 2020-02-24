@@ -19,7 +19,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to  mincraft'
+      msg: 'Welcome to  minecraft'
     }
   }
 }
