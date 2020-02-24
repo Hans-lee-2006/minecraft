@@ -15,7 +15,7 @@
       <div class="block">
         <h2>我的作品</h2>
         <ol>
-          <li><a href="改這裡" target = "_blank">生存</a></li>
+          <li><a href="/static/生存.zip" target = "_blank">生存</a></li>
         </ol>
       </div>
     </div>
