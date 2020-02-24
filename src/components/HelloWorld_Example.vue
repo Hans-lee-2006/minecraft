@@ -6,7 +6,7 @@
       <div class="block">
         <h2>相關連結</h2>
         <ol>
-          <li v-for="l in links">
+          <li v-for="l in links" v-bind:key="l.name">
             <a :href="l.url" target="_blank">
               {{ l.name }}
             </a>
@@ -35,8 +35,8 @@ export default {
     return {
       msg: 'Welcome to  minecraft',
       links: [
-        { name: '官網', url: 'https://www.minecraft.net/zh-hant/'},
-        { name: '全球最大的模組(mod)網站', url: 'https://www.curseforge.com/minecraft/modpacks'}
+        {name: '官網', url: 'https://www.minecraft.net/zh-hant/'},
+        {name: '全球最大的模組(mod)網站', url: 'https://www.curseforge.com/minecraft/modpacks'}
       ]
     }
   }
