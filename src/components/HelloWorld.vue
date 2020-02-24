@@ -3,9 +3,16 @@
   <img src="https://lh3.googleusercontent.com/VSwHQjcAttxsLE47RuS4PqpC4LT7lCoSjE7Hx5AW_yCxtDvcnsHHvm5CTuL5BPN-uRTP=s360-rw">
     <h1>{{ msg }}</h1>
     <div class="container">
+      <h2>相關連結</h2>
       <ol>
         <li><a href="https://www.minecraft.net/zh-hant/" target = "_blank">官網</a></li>
         <li><a href="https://www.curseforge.com/minecraft/modpacks" target = "_blank">全球最大的模組(mod)網站</a></li>
+      </ol>
+    </div>
+    <div class="container">
+      <h2>我的作品</h2>
+      <ol>
+        <li><a href="改這裡" target = "_blank">生存</a></li>
       </ol>
     </div>
     <div class="container">
