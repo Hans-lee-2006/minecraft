@@ -1,5 +1,8 @@
 <template>
-  <nav class="ui menu"></nav>
+  <nav class="ui menu">
+    <router-link to = "/">home</router-link>
+    <router-link to = "/example">example</router-link>
+  </nav>
   <div id="app">
     <router-view/>
   </div>
