@@ -1,4 +1,5 @@
 <template>
+  <nav class="ui menu"></nav>
   <div id="app">
     <router-view/>
   </div>
