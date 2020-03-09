@@ -27,6 +27,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+.ui.menu {
+  background-color: white;
+  padding: 0.5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+.mc  {
+  margin-top:3em;
 }
 </style>
