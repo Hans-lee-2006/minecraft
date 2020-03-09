@@ -2,7 +2,7 @@
   <div id="app">
     <nav class="ui menu">
       <router-link to = "/">home</router-link>
-      <router-link to = "/example">example</router-link>
+      <router-link to = "/myworld">我的作品</router-link>
     </nav>
     <router-view/>
   </div>

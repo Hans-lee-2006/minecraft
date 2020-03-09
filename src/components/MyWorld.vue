@@ -4,17 +4,12 @@
     <h1>{{ msg }}</h1>
     <div class="container">
       <div class="block">
-        <h2>相關連結</h2>
+        <h2>我的作品</h2>
         <ol>
-          <li v-for="l in links" v-bind:key="l.name">
-            <a :href="l.url" target="_blank">
-              {{ l.name }}
-            </a>
-          </li>
+          <li v-for = "l in links" v-bind:key = "l.name"><a :href="l.url" target = "_blank">{{ l.name }}</a>{{ l.des }}</li>
         </ol>
       </div>
     </div>
-    
     <div class="container">
       <p>這裡是我的個人網站我會放上我自己的地圖，跟我正在玩的模組，跟我發現的有趣的網站。當然主要都還是跟minecraft有關，但還是會有一些其他的，畢竟這是我唯一有玩的遊戲啊!</p>
     </div>
@@ -28,9 +23,8 @@ export default {
     return {
       msg: 'Welcome to  minecraft',
       links: [
-        {name: '官網', url: 'https://www.minecraft.net/zh-hant/'},
-        {name: '全球最大的模組(mod)網站', url: 'https://www.curseforge.com/minecraft/modpacks'},
-        {name: '繁中mod網站', url: 'https://mcfuns.com.tw/category/%E9%81%8A%E6%88%B2%E6%9D%90%E8%B3%AA/%E5%85%89%E5%BD%B1%E5%8C%85/'}
+        {name: '生存', url: '/static/生存.zip', des: '詳細描述'}
+        
       ]
     }
   }
