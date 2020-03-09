@@ -26,7 +26,6 @@ export default {
       msg: 'Welcome to  minecraft',
       links: [
         {name: '生存', url: '/static/生存.zip', des: '詳細描述'}
-        
       ]
     }
   }

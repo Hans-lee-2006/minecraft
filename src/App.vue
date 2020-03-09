@@ -37,7 +37,8 @@ body {
   left: 0;
   width: 100vw;
 }
-.mc  {
-  margin-top:3em;
+
+.mc {
+  margin-top: 3em;
 }
 </style>
