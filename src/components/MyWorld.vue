@@ -6,7 +6,9 @@
       <div class="block">
         <h2>我的作品</h2>
         <ol>
-          <li v-for = "l in links" v-bind:key = "l.name"><a :href="l.url" target = "_blank">{{ l.name }}</a>{{ l.des }}</li>
+          <li v-for = "l in links" v-bind:key = "l.name"><a :href="l.url" target = "_blank">{{ l.name }}</a>
+          <span class="more">{{ l.des }}</span>
+          </li>
         </ol>
       </div>
     </div>
@@ -55,5 +57,8 @@ a {
 }
 .mc {
   width: 20vmin;
+}
+.more {
+  margin-left: 2em;
 }
 </style>
