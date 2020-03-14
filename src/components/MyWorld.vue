@@ -25,7 +25,8 @@ export default {
     return {
       msg: 'Welcome to  minecraft',
       links: [
-        {name: '生存', url: '/static/生存.zip', des: '詳細描述'}
+        {name: '生存', url: '/static/生存.zip', des: '詳細描述'},
+        {name:'空島',url:'/static/ray 空島.zip'}
       ]
     }
   }
