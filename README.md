@@ -1,7 +1,4 @@
 # minecraft
- 
-# model
- 
 
 # 錯誤回報
 
