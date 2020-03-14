@@ -30,6 +30,7 @@ body {
 }
 
 .ui.menu {
+  text-align: left;
   background-color: white;
   padding: 0.5em;
   position: fixed;
