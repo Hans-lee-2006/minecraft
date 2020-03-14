@@ -17,7 +17,7 @@ export default {
 <style>
 
 body {
-  background-image: url('/static/bg-img.jpeg');
+  background-image: url('/static/white-painted-wall-1939485.jpg');
   background-repeat: repeat;
 }
 
