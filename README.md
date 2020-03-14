@@ -9,7 +9,7 @@
 ## 進入專案
 
 ``` bash
-cd Documents/model
+cd Documents/minecraft
 npm run dev
 
 ## Build Setup
