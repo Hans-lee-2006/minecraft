@@ -20,7 +20,7 @@ body {
   background-image: url('/static/white-painted-wall-1939485.jpg');
   background-repeat: repeat;
 }
-
+.router-link-exact-active.router-link-active {   font-size: 1.5em;   color: blue !important; }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -31,7 +31,7 @@ body {
 
 .ui.menu {
   text-align: left;
-  background-color: white;
+  background-color: hsla(186, 100%, 56%, 0.5);
   padding: 0.5em;
   position: fixed;
   top: 0;
