@@ -20,9 +20,18 @@ body {
   background-image: url('/static/white-painted-wall-1939485.jpg');
   background-repeat: repeat;
 }
-.router-link-exact-active.router-link-active {   font-size: 1.5em;   color: blue !important; }
+
+.router-link-exact-active.router-link-active {   
+  font-size: 1.5em;
+  color: blue !important;
+}
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif,
+               'Microsoft JhengHei', /*  中文字型 */
+                'Microsoft YaHei', /*  中文字型 */
+                'STHeiti', /*  中文字型 */
+                'Apple LiGothic Medium'; /*  中文字型 */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
