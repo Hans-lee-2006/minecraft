@@ -21,7 +21,6 @@ body {
   background-repeat: repeat;
 }
 
-
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif,
                'Microsoft JhengHei', /*  中文字型 */
@@ -51,7 +50,7 @@ body {
 }
 
 .ui.menu a:hover {
- text-decoration: underline; 
+  text-decoration: underline;
 }
 
 .router-link-exact-active.router-link-active {
