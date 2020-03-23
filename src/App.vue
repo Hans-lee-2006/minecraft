@@ -21,10 +21,6 @@ body {
   background-repeat: repeat;
 }
 
-.router-link-exact-active.router-link-active {
-  font-size: 1.5em;
-  color: blue !important;
-}
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif,
@@ -46,6 +42,21 @@ body {
   top: 0;
   left: 0;
   width: 100vw;
+}
+
+.ui.menu a, .ui.menu a:visited {
+  margin: 0 2em;
+  color: black;
+  text-decoration: none;
+}
+
+.ui.menu a:hover {
+ text-decoration: underline; 
+}
+
+.router-link-exact-active.router-link-active {
+  font-size: 1.5em;
+  color: blue !important;
 }
 
 .mc {
