@@ -4,7 +4,7 @@
     <h1>{{ msg }}</h1>
     <div class="container">
       <div class="block">
-        <h2>相關連結</h2>
+        <h2>請看說明</h2>
         <ol>
           <li v-for="l in links" v-bind:key="l.name">
             <a :href="l.url" target="_blank">
@@ -27,9 +27,9 @@ export default {
     return {
       msg: 'Welcome to  minecraft',
       links: [
-        {name: '官網', url: 'https://www.minecraft.net/zh-hant/'},
-        {name: '全球最大的模組(mod)網站', url: 'https://www.curseforge.com/minecraft/modpacks'},
-        {name: '繁中mod網站', url: 'https://mcfuns.com.tw/category/%E9%81%8A%E6%88%B2%E6%9D%90%E8%B3%AA/%E5%85%89%E5%BD%B1%E5%8C%85/'}
+        {name: '寫給麻瓜', url: 'https://hackmd.io/HuVYJXouSi6uZd8oNXmJQA?view'},
+        {name: '寫給初學者', url: 'https://hackmd.io/5fJF_mU8S0e915U6h7dG2w?view'},
+        {name: '寫給老手', url: 'https://hackmd.io/A7Wgqb4IQh27zXzZ7BbTFQ?view'}
       ]
     }
   }
