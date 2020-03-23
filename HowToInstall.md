@@ -1,45 +1,62 @@
-# minecraft
+# minecraft遊戲說明
 
-## 主要對象?
+## 寫給麻瓜
 
-1. 老手?
-2. 新手?
-3. 麻瓜?
+### 取得遊戲
+首先你必須要進入[官網](https://www.minecraft.net/zh-hans/)才能夠下載，你需要先花費800塊
 
-## 使用者需求?
+1. 可以用信用卡
+2. 可以[去便利商店買一張遊戲卡片](https://www.seegc.com.tw/archives/39149)
+ ![卡片範例](https://i.imgur.com/iCMLIqt.png =150
+ x)
+ 
+### 安裝遊戲
+ 
+ 
+ 
+### 進入遊戲
+ 
 
-1. 世界分享?
-2. 技術交流?
-3. 入門教學?
 
-## 素材與呈現
+### 常見問題
 
-1. 工具(心得)
-2. 攝影
-3. 入門教學(心得)
-4. 模型推薦(心得)
+#### 遊戲的目標是什麼？
 
-# 回題、意見和錯誤回報
+#### 什麼都沒有如何開始？
 
-1. [請寫進這裡](https://github.com/Hans-lee-2006/minecraft/issues)
+#### 晚上遇到怪物怎麼辦？
 
-# 寫給開發者
+躲在地底下等白天
 
-## 進入專案
+#### 怪物打不死嗎？
 
-``` bash
-cd Documents
-cd minecraft
-npm run dev
+新手很難打死，變強之後再去打怪吧。
 
-## Build Setup
+#### 怎麼合成道具？
 
-``` bash
-# install dependencies
-npm install
+#### 怎麼吃東西？
 
-# serve with hot reload at localhost:8080
-npm run dev
 
-# build for production with minification
-npm run build
+## 寫給初學者
+
+### 完哪一個版本有差嗎
+
+### 如何安裝地圖檔
+
+### 如何安裝材質包
+
+### 如何安裝模組
+
+### 如何安裝光影
+
+
+### Readme
+
+[Readme](https://hackmd.io/Ot4aLYwFQ_WuHbGAP67iDQ?both)
+
+
+
+
+
+
+
