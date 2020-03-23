@@ -1,5 +1,7 @@
 # minecrat
 
+[HowToInstall](https://hackmd.io/HuVYJXouSi6uZd8oNXmJQA)
+
 ## 主要對象
 
 1. 熟手
