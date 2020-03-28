@@ -39,13 +39,13 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .blue{
-  text-shadow: 2px 2px 5px blue;
+  text-shadow: 2px 2px 1px blue;
 }
 .green{
-  text-shadow: 2px 2px 5px green;
+  text-shadow: 2px 2px 2px green;
 }
 .red{
-  text-shadow: 2px 2px 5px red;
+  text-shadow: 2px 2px 3px red;
 }
 .green
 .container {
