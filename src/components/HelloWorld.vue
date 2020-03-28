@@ -7,7 +7,7 @@
         <h2>請看說明</h2>
         <ol>
           <li v-for="l in links" v-bind:key="l.name">
-            <a :href="l.url" target="_blank">
+            <a :href="l.url" :class="l.class" target="_blank">
               {{ l.name }}
             </a>
           </li>
@@ -27,9 +27,9 @@ export default {
     return {
       msg: 'Welcome to  minecraft',
       links: [
-        {name: '寫給麻瓜', url: 'https://hackmd.io/HuVYJXouSi6uZd8oNXmJQA?view'},
-        {name: '寫給初學者', url: 'https://hackmd.io/5fJF_mU8S0e915U6h7dG2w?view'},
-        {name: '寫給老手', url: 'https://hackmd.io/A7Wgqb4IQh27zXzZ7BbTFQ?view'}
+        {name: '寫給麻瓜', url: 'https://hackmd.io/HuVYJXouSi6uZd8oNXmJQA?view', class: 'blue'},
+        {name: '寫給初學者', url: 'https://hackmd.io/5fJF_mU8S0e915U6h7dG2w?view', class: 'green'},
+        {name: '寫給老手', url: 'https://hackmd.io/A7Wgqb4IQh27zXzZ7BbTFQ?view', class: 'red'}
       ]
     }
   }
@@ -38,6 +38,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.blue{
+  text-shadow: 2px 2px 5px blue;
+}
+.green{
+  text-shadow: 2px 2px 5px green;
+}
+.red{
+  text-shadow: 2px 2px 5px red;
+}
+.green
 .container {
   display: flex;
   justify-content: center;
