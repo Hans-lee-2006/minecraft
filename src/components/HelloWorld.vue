@@ -39,15 +39,16 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .blue{
+  color: blue
   text-shadow: 2px 2px 1px blue;
 }
 .green{
   text-shadow: 2px 2px 2px green;
 }
 .red{
+  color: red
   text-shadow: 2px 2px 3px red;
 }
-.green
 .container {
   display: flex;
   justify-content: center;
@@ -55,7 +56,6 @@ export default {
 }
 .block {
   width: 250px;
-  margin: 0 auto;
 }
 p {
   max-width: 600px;
