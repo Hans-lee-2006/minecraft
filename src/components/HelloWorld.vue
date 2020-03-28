@@ -7,8 +7,8 @@
         <h2>請看說明</h2>
         <ol>
           <li v-for="l in links" v-bind:key="l.name">
-            <a :href="l.url" :class="l.class" target="_blank">
-              {{ l.name }}
+            <a :href="l.url" target="_blank">
+              <span :class="l.class">{{ l.name }}</span>
             </a>
           </li>
         </ol>
@@ -55,6 +55,7 @@ export default {
 }
 .block {
   width: 250px;
+  margin: 0 auto;
 }
 p {
   max-width: 600px;
