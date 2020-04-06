@@ -17,6 +17,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+.hello {
+  margin-top: 50px;
+}
 
 iframe {
   width: 100%;

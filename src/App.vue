@@ -3,7 +3,7 @@
     <nav class="ui menu">
       <router-link to = "/">home</router-link>
       <router-link to = "/myworld">我的作品</router-link>
-      <router-link to = "/p1">寫給新手</router-link>
+      <router-link to = "/p1">寫給麻瓜</router-link>
     </nav>
     <router-view/>
   </div>
@@ -42,11 +42,17 @@ body {
 .ui.menu {
   text-align: left;
   background-color: hsla(186, 100%, 56%, 0.5);
-  padding: 0.5em;
+  padding: 5px;
+  height: 40px;
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
+}
+
+.ui.menu a {
+  margin: 0 0.5em;
+  text-decoration: none; 
 }
 
 .mc {
