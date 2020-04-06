@@ -4,6 +4,8 @@
       <router-link to = "/">home</router-link>
       <router-link to = "/myworld">我的作品</router-link>
       <router-link to = "/p1">寫給麻瓜</router-link>
+      <router-link to = "/p2">寫給初學者</router-link>
+      <router-link to = "/p3">寫給老手</router-link>
     </nav>
     <router-view/>
   </div>
