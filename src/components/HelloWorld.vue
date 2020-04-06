@@ -7,7 +7,7 @@
         <h2>請看說明</h2>
         <ol>
           <li v-for="l in links" v-bind:key="l.name">
-            <a :href="l.url" target="_blank">
+            <a id ="big" :href="l.url" target="_blank">
               <span :class="l.class">{{ l.name }}</span>
             </a>
           </li>
@@ -38,8 +38,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-li {
+
+#big {
   font-size: 1.5em;
+  text-decoration: none;
 }
 
 .blue{
