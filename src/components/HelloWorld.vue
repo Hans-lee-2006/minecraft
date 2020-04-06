@@ -40,10 +40,10 @@ export default {
 <style scoped>
 .blue{
   color: blue;
-  text-shadow: 2px 2px 1px blue;
+  text-shadow: 2px 2px 3px blue;
 }
 .green{
-  text-shadow: 2px 2px 2px green;
+  text-shadow: 2px 2px 3px green;
 }
 .red{
   color: red;
