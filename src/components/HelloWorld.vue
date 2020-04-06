@@ -38,16 +38,18 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+li {
+  font-size: 1.5em;
+}
+
 .blue{
   color: blue;
-  text-shadow: 2px 2px 3px blue;
 }
 .green{
-  text-shadow: 2px 2px 3px green;
 }
 .red{
   color: red;
-  text-shadow: 2px 2px 3px red;
+  /* text-shadow: 2px 2px 0px red;*/
 }
 .container {
   display: flex;
