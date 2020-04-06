@@ -1,8 +1,9 @@
-<template>
+ <template>
   <div id="app">
     <nav class="ui menu">
       <router-link to = "/">home</router-link>
       <router-link to = "/myworld">我的作品</router-link>
+      <router-link to = "/p1">寫給新手</router-link>
     </nav>
     <router-view/>
   </div>
@@ -19,6 +20,11 @@ export default {
 body {
   background-image: url('/static/white-painted-wall-1939485.jpg');
   background-repeat: repeat;
+}
+
+.router-link-exact-active.router-link-active {   
+  font-size: 1.5em;
+  color: blue !important;
 }
 
 #app {
@@ -41,21 +47,6 @@ body {
   top: 0;
   left: 0;
   width: 100vw;
-}
-
-.ui.menu a, .ui.menu a:visited {
-  margin: 0 2em;
-  color: black;
-  text-decoration: none;
-}
-
-.ui.menu a:hover {
-  text-decoration: underline;
-}
-
-.router-link-exact-active.router-link-active {
-  font-size: 1.5em;
-  color: blue !important;
 }
 
 .mc {
