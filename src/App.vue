@@ -24,7 +24,7 @@ body {
   background-repeat: repeat;
 }
 
-.router-link-exact-active.router-link-active {   
+.router-link-exact-active.router-link-active {
   font-size: 1.5em;
   color: blue !important;
 }
@@ -54,7 +54,7 @@ body {
 
 .ui.menu a {
   margin: 0 0.5em;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .mc {
