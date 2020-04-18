@@ -25,7 +25,7 @@ export default {
 <style>
 
 body {
-  background-image: url('/static/white-painted-wall-1939485.jpg');
+  background-image: url('https://i.imgur.com/g53gEVR.jpg');
   background-repeat: repeat;
 }
 
