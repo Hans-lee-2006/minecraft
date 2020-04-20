@@ -36,15 +36,27 @@
 cd Documents
 cd minecraft
 npm run dev
+```
 
 ## Build Setup
 
 ``` bash
-# install dependencies
+### install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+### serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
+```
+
+## 發佈
+
+``` bash
+### build for production with minification
 npm run build
+```
+
+1. 把dist的index.html中的=/static都改成=./static
+2. 把dist的檔案都搬到docs
+3. push
+
