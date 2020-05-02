@@ -5,8 +5,8 @@ import App from './App'
 import router from './router'
 import VueGtag from 'vue-gtag'
 
-Vue.use(VueGtag, { 
-	config: { id: 'UA-165288040-1' }
+Vue.use(VueGtag, {
+  config: { id: 'UA-165288040-1' }
 }, router)
 
 Vue.config.productionTip = false
