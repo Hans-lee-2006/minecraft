@@ -6,7 +6,7 @@
       <router-link class = "fat-only" to = "/p1">寫給麻瓜</router-link>
       <router-link class = "fat-only" to = "/p2">寫給初學者</router-link>
       <router-link class = "fat-only" to = "/p3">寫給老手</router-link>
-      <span class="fat-only">
+      <span id = "fb" class="fat-only">
         <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fhans-lee-2006.github.io%2Fminecraft%2F%23%2F&layout=button_count&size=small&width=73&height=20&appId" width="73" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
       </span>
       <router-link class = "thin-only" to = "/">home</router-link>
@@ -67,6 +67,11 @@ body {
 
 .mc {
   margin-top: 3em;
+}
+
+#fb {
+  position: relative;
+  top: 3px;
 }
 
 @media screen and (min-width: 421px) {
