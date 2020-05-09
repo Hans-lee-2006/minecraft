@@ -5,13 +5,13 @@
     <div class="container">
       <div class="block">
         <h2>請看說明</h2>
-        <ol>
-          <li v-for="l in links" v-bind:key="l.name">
+        <div class="ui list">
+          <div class = "item" v-for="l in links" v-bind:key="l.name">
             <router-link id ="big" :to = "l.route">
               <span :class="l.class">{{ l.name }}</span>
             </router-link>
-          </li>
-        </ol>
+          </div>
+        </div>
       </div>
     </div>
     <div class="container">
