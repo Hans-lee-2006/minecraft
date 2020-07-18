@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <vue-headful title="寫給初學者"/>
     <iframe src="https://hackmd.io/5fJF_mU8S0e915U6h7dG2w?view"></iframe>
   </div>
 </template>

@@ -4,6 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import VueGtag from 'vue-gtag'
+import vueHeadful from 'vue-headful'
+
+Vue.component('vue-headful', vueHeadful)
 
 Vue.use(VueGtag, {
   config: { id: 'UA-165288040-1' }

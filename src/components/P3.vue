@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <vue-headful title="寫給老手"/>
     <iframe src="https://hackmd.io/A7Wgqb4IQh27zXzZ7BbTFQ?view"></iframe>
   </div>
 </template>

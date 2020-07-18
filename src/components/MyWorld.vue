@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <vue-headful title="我的作品"/>
   <img class="mc" src="https://lh3.googleusercontent.com/VSwHQjcAttxsLE47RuS4PqpC4LT7lCoSjE7Hx5AW_yCxtDvcnsHHvm5CTuL5BPN-uRTP=s360-rw">
     <h1>{{ msg }}</h1>
     <div class="container">

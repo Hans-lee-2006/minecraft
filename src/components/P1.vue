@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <vue-headful title="寫給麻瓜"/>
     <iframe src="https://hackmd.io/HuVYJXouSi6uZd8oNXmJQA?view"></iframe>
   </div>
 </template>
