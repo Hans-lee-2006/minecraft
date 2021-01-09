@@ -1,7 +1,7 @@
  <template>
   <div id="app">
     <nav class="ui menu">
-      <router-link class = "fat-only" to = "/"><i class="home icon"></i></router-link>
+      <router-link class = "fat-only" to = "/"><i class="home icon"></i>首頁</router-link>
       <router-link class = "fat-only" to = "/myworld">我的作品</router-link>
       <router-link class = "fat-only" to = "/p1">寫給麻瓜</router-link>
       <router-link class = "fat-only" to = "/p2">寫給初學者</router-link>
