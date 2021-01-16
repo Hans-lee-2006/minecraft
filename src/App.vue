@@ -9,7 +9,7 @@
       <span id = "fb" class="fat-only">
         <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fhans-lee-2006.github.io%2Fminecraft%2F%23%2F&layout=button_count&size=small&width=73&height=20&appId" width="73" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
       </span>
-      <router-link class = "thin-only" to = "/"><i class="home icon"></i></router-link>
+      <router-link class = "thin-only" to = "/"><i class="home icon"></i>首頁</router-link>
       <router-link class = "thin-only" to = "/myworld">作品</router-link>
       <router-link class = "thin-only" to = "/p1">麻瓜</router-link>
       <router-link class = "thin-only" to = "/p2">初學</router-link>
@@ -31,6 +31,10 @@ body {
   background-image: url('https://i.imgur.com/g53gEVR.jpg');
   background-repeat: repeat;
 }
+a {
+  font-size: 23px;
+  padding: 0.1em;
+}
 
 .router-link-exact-active.router-link-active {
   font-size: 1.5em;
@@ -38,7 +42,7 @@ body {
 }
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif,
+  font-family: 'Avenir', Helvetica, Arial, sans-serif3
                'Microsoft JhengHei', /*  中文字型 */
                 'Microsoft YaHei', /*  中文字型 */
                 'STHeiti', /*  中文字型 */

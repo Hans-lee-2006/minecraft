@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <vue-headful title="首頁"/>
-  <img class="mc" src="https://lh3.googleusercontent.com/VSwHQjcAttxsLE47RuS4PqpC4LT7lCoSjE7Hx5AW_yCxtDvcnsHHvm5CTuL5BPN-uRTP=s360-rw">
+  <img class="mc" alt="logo" src="https://lh3.googleusercontent.com/VSwHQjcAttxsLE47RuS4PqpC4LT7lCoSjE7Hx5AW_yCxtDvcnsHHvm5CTuL5BPN-uRTP=s360-rw">
     <h1>{{ msg }}</h1>
     <div class="container">
       <div class="block">
