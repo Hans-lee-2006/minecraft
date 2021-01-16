@@ -8,7 +8,7 @@
         <h2>請看說明</h2>
         <div class="ui list">
           <div class = "item" v-for="l in links" v-bind:key="l.name">
-            <router-link id ="big" :to = "l.route">
+            <router-link class ="big" :to = "l.route">
               <span :class="l.class">{{ l.name }}</span>
             </router-link>
           </div>
@@ -40,7 +40,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-#big {
+.big {
   font-size: 1.5em;
   text-decoration: none;
 }
