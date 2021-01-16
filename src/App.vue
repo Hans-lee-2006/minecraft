@@ -79,19 +79,20 @@ a {
   top: 3px;
 }
 
-@media screen and (min-width: 421px) {
+@media screen and (min-width: 461px) {
   .thin-only {
     display: none !important;
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 400px) {
   .fat-only {
     display: none !important;
   }
   a {
     font-size: 20px;
-    padding: 0;
+    padding: 0 !important;
+    margin: 0em 0.16em !important;
   }
 }
 </style>

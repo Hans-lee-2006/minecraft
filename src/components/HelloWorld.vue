@@ -68,6 +68,7 @@ a.big {
 }
 p {
   max-width: 600px;
+  text-align: left;
 }
 h1, h2 {
   font-weight: normal;
