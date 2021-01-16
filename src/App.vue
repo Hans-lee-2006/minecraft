@@ -31,6 +31,7 @@ body {
   background-image: url('https://i.imgur.com/g53gEVR.jpg');
   background-repeat: repeat;
 }
+
 a {
   font-size: 23px;
   padding: 0.1em;
@@ -87,6 +88,10 @@ a {
 @media screen and (max-width: 420px) {
   .fat-only {
     display: none !important;
+  }
+  a {
+    font-size: 20px;
+    padding: 0;
   }
 }
 </style>
