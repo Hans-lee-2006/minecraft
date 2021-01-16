@@ -40,9 +40,13 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-.big {
-  font-size: 1.5em;
+a.big {
+  font-size: 1.8em;
   text-decoration: none;
+}
+
+.item {
+  padding: 0.6em 0 !important;
 }
 
 .blue{
